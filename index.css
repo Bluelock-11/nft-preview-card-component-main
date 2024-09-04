@@ -109,7 +109,20 @@ hr {
   border-radius: 5px;
 }
 
-.button {
+#buttonOne {
+  border: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#buttonTwo {
+  border: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#julesWyvern {
   color: black;
-  background-color: black;
 }
