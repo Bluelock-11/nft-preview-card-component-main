@@ -17,28 +17,37 @@
 }
 
 .card {
-  padding: 100px;
-  width: 700px;
+  /* border: 1px solid red; */
+  padding: 16px;
+  width: 380px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 8px;
 }
 
 .mainImg {
   width: 80%;
 }
 
+.imgBox {
+  /* border: 1px solid grey; */
+}
+
 .imgBox > img {
-  width: 75%;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .title {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   display: flex;
 }
 
 .details {
+  /* border: 1px solid yellow; */
   color: gray;
-  font-size: 30px;
+  font-size: 19px;
   font-weight: 400;
 }
 
@@ -48,8 +57,9 @@
 }
 
 .info {
+  /* border: 1px solid yellow; */
   color: cyan;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -58,25 +68,52 @@
 
 .days {
   color: gray;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 400;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 hr {
   color: gray;
-  border-style: dashed;
+  border-style: line;
 }
 
 .creator {
+  border: 1px solid white;
   color: gray;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   display: flex;
+  justify-content: left;
+  width: 38px;
+  height: 38px;
+  border-radius: 100px;
 }
 
-section {
+.imgContainer {
+  display: flex;
+  gap: 15px;
+  justify-items: space-between;
+  align-items: center;
+}
+
+.aB {
   color: white;
+}
+
+.p {
+  color: gray;
+}
+
+.b {
+  border-color: none;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.button {
+  color: black;
+  background-color: black;
 }
