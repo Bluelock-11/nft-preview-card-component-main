@@ -27,30 +27,30 @@
     </style>
   </head>
 
-  <body class="background">
+  <body class="background"  id="container">
     <!-- <img src="images/icon-view.svg" alt=""> -->
     
-    <section class="card">
+    <section class="card" id="cardBox">
       
-      <section class="imgBox">
+      <section class="imgBox" id="imgC">
         <img src="images/image-equilibrium.jpg" alt="">
         <h1 class="title">Equilibrium #3429</h1>
       </section>
       
       <br>
-      <p class="details">Our Equilibrium collection promotes </br> 
+      <p class="details" id="detailBox">Our Equilibrium collection promotes </br> 
         balance and calm.</p>
       <br>  
     
 
-        <section class="infoBox">
+        <section class="infoBox" id="aS">
 
           <aside class="info">
             <img src="images/icon-ethereum.svg" alt="">
             <p>0.041 ETH</p> 
           </aside>
           
-          <aside class="days">
+          <aside class="days" >
             <img src="images/icon-clock.svg" alt="">
             <p>3 days left</p>
           </aside>
@@ -59,12 +59,13 @@
       <hr>
       <br>
 
-    <section class="imgContainer">
+    <section class="imgContainer" id="iD">
       <img class="creator" src="images/image-avatar.png" alt="">
       <p class="p">Creation of <span class="aB">Jules Wyvern</span></p>
       </section>
 
-    <button class="button">  </button>
+    <button id="buttonOne" onclick='lightMode()'> Light mode </button>
+    <button id="buttonTwo" onclick='darkMode()' > Dark mode </button>
   </border>
   <script src=index.js defer></script>
 

@@ -1,7 +1,20 @@
-const button = getElementByClass("button");
+let background = document.getElementById("container");
+let card = document.getElementById("cardBox");
+let details = document.getElementById("detailBox");
+let buttonOne = document.getElementById("buttonOne");
+let buttonTwo = document.getElementById("buttonTwo");
 
-button.addeventlistener("click", changeTheme);
-
-function changeTheme() {
-  index.html.body.classList.toggle("darkmode");
+function lightMode() {
+  background.style.backgroundColor = "white";
+  card.style.backgroundColor = "#e0e0e0";
+  details.style.color = "black";
 }
+
+function darkMode() {
+  background.style.backgroundColor = "black";
+  card.style.backgroundColor = "#222222";
+  details.style.color = "white";
+}
+
+buttonOne.addEventListener("click", lightMode);
+buttonTwo.addEventListener("click", darkMode);
